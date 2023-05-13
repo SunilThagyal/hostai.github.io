@@ -1,0 +1,46 @@
+.selectric-is-invalid ~ .invalid-feedback {
+    display: block;
+}
+.selectric-is-invalid .selectric {
+    border-color: red;
+}
+.certificate-outer {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 10px;
+}
+.certificate-input {
+    width: 33.333%;
+}
+.certificate-choose-file {
+    width: 33.333%;
+}
+.certificate-outer .input-group {
+    width: 33.333%;
+}
+.certificate-outer button.btn.btn-danger.remove {
+    height: 100%;
+    min-width: 85px;
+}
+.certificate-outer button.btn.btn-danger.admin_doc_remove {
+    height: 100%;
+    min-width: 85px;
+}
+.certificate-outer button#addMore {
+    height: 100%;
+    min-width: 85px;
+}
+.certificate-outer button#addMoreAdmin {
+    height: 100%;
+    min-width: 85px;
+}
+span#construction_site\[\]-error {
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+.sidebar-mini .main-sidebar .sidebar-brand a {
+    display: inline-block;
+    width: 22px;
+    overflow: hidden;
+}
